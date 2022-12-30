@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h3 class="title">Baraa's Library</h3>
+      <div class="btn display-form"><h3>Add new Book</h3></div>
+    </div>
+    <div class="add-form-wrapper form-wrapper hide" id="new-book">
+      <form action="get" class="g-form">
+        <input type="text" placeholder="Title" class="book-title">
+        <input type="text" placeholder="Author" class="book-author">
+        <input type="text" placeholder="Pages" class="pages">
+        <div class="read-check">
+          <label for="read"> Did you read it?</label>
+          <input type="checkbox" name="read" class="read">
+        </div>
+        <button type="button" class="btn add-book">Add Book</button>
+      </form>
+    </div>
+    <div class="books">
+    </div>
+  </body>
+
+    <script src="./script.js"></script>
+</html>
